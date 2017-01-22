@@ -1,0 +1,8 @@
+--- Dockerfile.bak	2017-01-22 11:23:59.437044702 +0100
++++ Dockerfile	2017-01-22 11:22:06.981373945 +0100
+@@ -1,4 +1,4 @@
+-FROM ruby:2.4-slim
++FROM knjcode/rpi-ruby:2.4.0
+ MAINTAINER WPScan Team <team@wpscan.org>
+ 
+ RUN DEBIAN_FRONTEND=noninteractive && \
