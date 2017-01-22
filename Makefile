@@ -13,6 +13,7 @@ build: wpscan/Dockerfile.bak
 	$(DOCKER) build -t $(DOCKER_IMAGE_NAME) wpscan/
 
 push:
+	$(DOCKER) login
 	$(DOCKER) push $(DOCKER_IMAGE_NAME)
 
 test:
