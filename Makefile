@@ -18,3 +18,6 @@ push:
 
 test:
 	$(DOCKER) run --rm $(DOCKER_IMAGE_NAME) --version
+
+update:
+	cd wpscan/ && git pull && cd ..
