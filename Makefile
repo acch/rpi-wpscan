@@ -20,4 +20,6 @@ test:
 	$(DOCKER) run --rm $(DOCKER_IMAGE_NAME) --version
 
 update:
-	cd wpscan/ && git pull && cd ..
+	git submodule deinit -f .
+	git submodule update --init
+
