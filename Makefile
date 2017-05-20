@@ -10,7 +10,7 @@ wpscan/Dockerfile.bak:
 
 build: wpscan/Dockerfile.bak
 	$(DOCKER) pull $(DOCKER_RUBY_NAME):$(DOCKER_RUBY_VERSION) 
-	$(DOCKER) build -t $(DOCKER_IMAGE_NAME) wpscan/
+	$(DOCKER) build --no-cache -t $(DOCKER_IMAGE_NAME) wpscan/
 
 push:
 	$(DOCKER) login
