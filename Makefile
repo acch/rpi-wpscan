@@ -1,7 +1,7 @@
 DOCKER=/bin/docker
 DOCKER_IMAGE_NAME=acch/rpi-wpscan
 DOCKER_RUBY_NAME=knjcode/rpi-ruby
-DOCKER_RUBY_VERSION=2.4.0
+DOCKER_RUBY_VERSION=2.4.1
 
 default: build
 
