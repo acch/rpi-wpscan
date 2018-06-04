@@ -18,4 +18,5 @@ docker run --rm acch/rpi-wpscan -u http://myblog.com
 - [wpscanteam/wpscan](https://github.com/wpscanteam/wpscan)
 
 ## Copyright
-Copyright Achim Christ
+
+Copyright 2017 Achim Christ, released under the [MIT license](LICENSE)
